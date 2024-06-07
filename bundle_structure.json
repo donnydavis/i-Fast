@@ -1,1 +1,26 @@
-{"bundle_id":"Qidi i-Fast_20240607084901","bundle_type":"printer config bundle","filament_config":["filament/Generic ABS template @Qidi i-Fast.json","filament/Generic ASA template @Qidi i-Fast.json","filament/Generic HIPS template @Qidi i-Fast.json","filament/Generic PA template @Qidi i-Fast.json","filament/Generic PET template @Qidi i-Fast.json","filament/Generic PLA template @Qidi i-Fast.json","filament/Generic PPA template @Qidi i-Fast.json","filament/Generic PPS template @Qidi i-Fast.json","filament/Generic PVA template @Qidi i-Fast.json","filament/Generic TPU template @Qidi i-Fast.json"],"printer_config":["printer/Qidi i-Fast.json"],"printer_preset_name":"Qidi i-Fast","process_config":["process/process template @Qidi i-Fast.json"],"user_id":"","user_name":"","version":"2.0.0"}
+{
+    "bundle_id": "Qidi i-Fast 0.4 nozzle",
+    "bundle_type": "printer config bundle",
+    "filament_config": [
+      "filament/Qidi Generic ABS @Qidi i-Fast 0.4 nozzle.json",
+      "filament/Qidi Generic ASA @Qidi i-Fast 0.4 nozzle.json",
+      "filament/QIDI HIPS @Qidi i-Fast 0.4 nozzle.json", 
+      "filament/Qidi Generic PA @Qidi i-Fast 0.4 nozzle.json",
+      "filament/Qidi Generic PETG @Qidi i-Fast 0.4 nozzle.json",
+      "filament/Qidi Generic PLA @Qidi i-Fast 0.4 nozzle.json",
+      "filament/QIDI PPA @Qidi i-Fast 0.4 nozzle.json",
+      "filament/QIDI PPS @Qidi i-Fast 0.4 nozzle.json",
+      "filament/Qidi Generic PVA @Qidi i-Fast 0.4 nozzle.json",
+      "filament/Qidi Generic TPU @Qidi i-Fast 0.4 nozzle.json"
+    ],
+    "printer_config": [
+      "printer/Qidi i-Fast 0.4 nozzle.json"
+    ],
+    "printer_preset_name": "Qidi i-Fast 0.4 nozzle",
+    "process_config": [
+      "0.20mm Standard @Qidi i-Fast 0.4 nozzle.json"
+    ],
+    "user_id": "",
+    "user_name": "",
+    "version": "1.0.0"
+  }
