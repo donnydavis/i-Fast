@@ -28,7 +28,8 @@
   ],
   "printer_preset_name": "Qidi i-Fast 0.4 nozzle",
   "process_config": [
-      "process/0.20mm Standard @Qidi i-Fast 0.4 nozzle.json"
+      "process/0.20mm Standard @Qidi i-Fast 0.4 nozzle.json",
+      "process/0.12mm Fine @Qidi i-Fast 0.4 nozzle.json"
   ],
   "user_id": "",
   "user_name": "",

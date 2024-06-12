@@ -1,6 +1,6 @@
 {
     "name": "0.20mm Standard @Qidi i-Fast 0.4 nozzle",
-    "compatible_printers": [],
+    "compatible_printers": ["Qidi i-Fast 0.4 nozzle"],
     "accel_to_decel_enable": "1",
     "accel_to_decel_factor": "50%",
     "alternate_extra_wall": "0",
