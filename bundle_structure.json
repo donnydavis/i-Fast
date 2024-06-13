@@ -14,14 +14,9 @@
       "filament/Qidi Generic TPU @Qidi i-Fast 0.4 nozzle.json",
       "filament/QIDI PA-Ultra @Qidi i-Fast 0.4 nozzle.json",
       "filament/QIDI PA12-CF @Qidi i-Fast 0.4 nozzle.json",
-      "filament/QIDI PAHT-CF @Qidi i-Fast 0.4 nozzle.json",
-      "filament/Qidi PC-ABS-FR @Qidi i-Fast 0.4 nozzle.json",
-      "filament/QIDI PET-CF @Qidi i-Fast 0.4 nozzle.json",
       "filament/QIDI PETG Tough @Qidi i-Fast 0.4 nozzle.json",
       "filament/QIDI PLA Rapido @Qidi i-Fast 0.4 nozzle.json",
-      "filament/QIDI PLA Rapido Matte @Qidi i-Fast 0.4 nozzle.json",
-      "filament/QIDI PLA-CF @Qidi i-Fast 0.4 nozzle.json",
-      "filament/Qidi TPU 95A-HF @Qidi i-Fast 0.4 nozzle.json",
+      "filament/QIDI PLA-CF @Qidi i-Fast 0.4 nozzle.json"
   ],
   "printer_config": [
       "printer/Qidi i-Fast 0.4 nozzle.json"
