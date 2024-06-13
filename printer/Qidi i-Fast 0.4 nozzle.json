@@ -37,7 +37,7 @@
     "fan_kickstart": "0",
     "fan_speedup_overhangs": "1",
     "fan_speedup_time": "0",
-    "from": "system",
+    "from": "User",
     "gcode_flavor": "marlin",
     "head_wrap_detect_zone": [],
     "high_current_on_filament_swap": "0",
@@ -116,7 +116,7 @@
         "0"
     ],
     "machine_pause_gcode": "",
-    "machine_start_gcode": "G28\nG0 X0 Y0 Z50 F3600\nPRINT_START BED=[first_layer_bed_temperature] \nHOTEND=[first_layer_temperature] \nCHAMBER=[chamber_temperature]\nG0 X5 Y5 Z0.3 F3600\nT1\nG92 E0\nT0\nG92 E0\nG0 X5 Y5 Z0.3 F3600",
+    "machine_start_gcode": "G28\nG0 X0 Y0 Z50 F3600\nM190 S[first_layer_bed_temperature]\nM109 T0 S[first_layer_temperature] \nM141 S[chamber_temperature]\nG0 X5 Y5 Z0.3 F3600\nT1\nG92 E0\nT0\nG92 E0\nG0 X5 Y5 Z0.3 F3600",
     "machine_unload_filament_time": "0",
     "manual_filament_change": "0",
     "max_layer_height": [
