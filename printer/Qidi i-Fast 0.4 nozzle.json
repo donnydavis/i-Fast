@@ -52,28 +52,28 @@
         "5000"
     ],
     "machine_max_acceleration_extruding": [
-        "1500",
-        "1250"
+        "5000",
+        "5000"
     ],
     "machine_max_acceleration_retracting": [
-        "1500",
-        "1250"
+        "5000",
+        "5000"
     ],
     "machine_max_acceleration_travel": [
         "0",
         "0"
     ],
     "machine_max_acceleration_x": [
-        "1000",
-        "1000"
+        "1200",
+        "1200"
     ],
     "machine_max_acceleration_y": [
         "1000",
         "1000"
     ],
     "machine_max_acceleration_z": [
-        "500",
-        "200"
+        "100",
+        "100"
     ],
     "machine_max_jerk_e": [
         "2.5",
@@ -88,24 +88,24 @@
         "10"
     ],
     "machine_max_jerk_z": [
-        "0.2",
+        "0.4",
         "0.4"
     ],
     "machine_max_speed_e": [
-        "120",
-        "120"
+        "50",
+        "50"
     ],
     "machine_max_speed_x": [
-        "500",
+        "200",
         "200"
     ],
     "machine_max_speed_y": [
-        "500",
+        "200",
         "200"
     ],
     "machine_max_speed_z": [
-        "12",
-        "12"
+        "15",
+        "15"
     ],
     "machine_min_extruding_rate": [
         "0",
@@ -116,7 +116,7 @@
         "0"
     ],
     "machine_pause_gcode": "",
-    "machine_start_gcode": "G28\nG0 X5 Y5 Z0.3 F3600\nT1\nG92 E0\nT0\nG92 E0\nG0 X5 Y5 Z0.3 F3600",
+    "machine_start_gcode": "G28\nG0 X0 Y0 Z50 F3600\nPRINT_START BED=[first_layer_bed_temperature] \nHOTEND=[first_layer_temperature] \nCHAMBER=[chamber_temperature]\nG0 X5 Y5 Z0.3 F3600\nT1\nG92 E0\nT0\nG92 E0\nG0 X5 Y5 Z0.3 F3600",
     "machine_unload_filament_time": "0",
     "manual_filament_change": "0",
     "max_layer_height": [
